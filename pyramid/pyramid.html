@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>별 피라미드 만들기</title>
+    <style>
+        pre {
+            font-family: monospace;
+            font-size: 20px;
+            text-align: center;
+        }
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1> 피라미드 만들기</h1>
+    <label for="numInput">피라미드 크기:</label>
+    <input type="number" id="numInput" min="1" value="5">
+    <button onclick="generatePyramid()">생성</button>
+    
+    <div id="pyramidOutput"></div>
+
+    <script src="pyramid.js"></script>
+</body>
+</html>
